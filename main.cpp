@@ -173,19 +173,9 @@ int main()
                     string command = "espeak \"" + phrase + "\"";
                     const char *charCommand = command.c_str();
                     system(charCommand);
-                    ShellExecute(NULL,"open","avengers.png",NULL, NULL, SW_NORMAL);
+                    ShellExecute(NULL,"open","nature.jpg",NULL, NULL, SW_NORMAL);
                 }
 
-
-                else if(command=="open oops book")
-                {
-                    cout<<"opening oops book"<<endl;
-                    string phrase = "opening oops book";
-                    string command = "espeak \"" + phrase + "\"";
-                    const char *charCommand = command.c_str();
-                    system(charCommand);
-                    ShellExecute(NULL,"open","C:\\Users\\rajiv\\Documents\\6th sem\\oops c++ balaguruswamy.pdf",NULL, NULL, SW_NORMAL);
-                }
 
                 else if(command=="open video")
                 {
@@ -194,13 +184,13 @@ int main()
                     string command = "espeak \"" + phrase + "\"";
                     const char *charCommand = command.c_str();
                     system(charCommand);
-                    ShellExecute(NULL,"open","C:\\Users\\rajiv\\Documents\\Zoom\\edit distance.mp4",NULL, NULL, SW_NORMAL);
+                    ShellExecute(NULL,"open","D:\\Personal Assistant project\\kesariya.mp4",NULL, NULL, SW_NORMAL);
                 }
 
                 else if(command=="bye" || command=="exit")
                 {
-                    cout<<"Good Bye Master Aditya, see you soon!"<<endl;
-                    string phrase = "Good Bye Master Aditya, see you soon!";
+                    cout<<"Good Bye Master Nihil, see you soon!"<<endl;
+                    string phrase = "Good Bye Master Nihil, see you soon!";
                     string command = "espeak \"" + phrase + "\"";
                     const char *charCommand = command.c_str();
                     system(charCommand);
