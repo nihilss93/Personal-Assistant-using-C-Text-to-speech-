@@ -58,9 +58,9 @@ int main()
     do
     {
         cout<<"*******************************"<<endl;
-        cout<<"| ENTER THE PASSWORD NIHIL|"<<endl;
+        cout<<"| ENTER YOUR PERSONAL PASSWORD|"<<endl;
         cout<<"*******************************"<<endl<<endl;
-        string phrase = "ENTER THE PASSWORD TO CONFIRM YOU ARE NIHIL";
+        string phrase = "ENTER YOUR PERSONAL PASSWORD";
         string command = "espeak \"" + phrase + "\"";
         const char *charCommand = command.c_str();
         system(charCommand);
