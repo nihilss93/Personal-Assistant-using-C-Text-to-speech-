@@ -196,6 +196,14 @@ int main()
                     system(charCommand);
                     exit(0);
                 }
+                else if(command == "open song"){
+                    cout<<"opening image"<<endl;
+                    string phrase = "opening song";
+                    string command = "espeak \"" + phrase + "\"";
+                    const char *charCommand = command.c_str();
+                    system(charCommand);
+                    ShellExecute(NULL,"open","song.mp3",NULL, NULL, SW_NORMAL);
+                }
 
                 else
                 {
